@@ -29,6 +29,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: relative;
 }
 
 .left .logo-section .logo{
@@ -36,10 +38,16 @@
   height: 100px;
 }
 
-.left .logo-section footer{
+.left .footer{
+  width: 40vw;
+  font-size: .9rem;
+  color: rgba(255, 255, 255, 0.795);
+  margin-bottom: 10px;
+
+  position: absolute;
+  bottom: 0;
   text-align: center;
-  font-size: 2rem;
-  color: white;
+
 }
 
 
@@ -70,6 +78,7 @@
 
 
 .right form .form-para{
+  color: #3f3f3f;
   font-weight: bold;
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -84,8 +93,8 @@
 .right form label{
   display: block;
   font-size: 12px;
-  font-weight: bold;
-  color: grey;
+  font-weight: 900;
+  color: rgb(94, 93, 93);
 }
 
 .first-row, .second-row, .third-row{
@@ -97,7 +106,7 @@ input{
   height: 1.2rem;
   margin-right: 4rem;
   border: 1px solid rgb(201, 201, 201);
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 input:focus{
@@ -105,6 +114,27 @@ input:focus{
   box-shadow: 1px 1px 6px grey;
 }
 
+.createAccount{
+  margin: 2rem 3rem 0 3rem;
+  padding: 1rem 2.5rem;
+  color: white;
+  background-color: rgb(64, 83, 24);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px gray;
+}
 
+.login-prompt{
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
 
+.logIn{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(54, 95, 1);
+  border: none;
+  background-color: transparent;
+}
 
